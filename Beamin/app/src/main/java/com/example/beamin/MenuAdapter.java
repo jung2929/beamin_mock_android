@@ -3,6 +3,8 @@ package com.example.beamin;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
+import android.util.Log;
+import android.widget.Toast;
 
 public class MenuAdapter extends FragmentStatePagerAdapter {
 
@@ -24,6 +26,8 @@ public class MenuAdapter extends FragmentStatePagerAdapter {
             case 2:
                 break;
             case 3:
+                break;
+            case 4:
                 break;
             case 5:
                 break;

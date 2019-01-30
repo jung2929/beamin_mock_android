@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/nav_header"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/nav_user_header"
+            />
+        <TextView
+            android:paddingLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="고마운 분"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/exfont"
+            android:textSize="25dp"/>
+    </LinearLayout>
+<Button
+    android:id="@+id/loginNav"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="로그인"
+    android:textSize="30dp"
+    android:background="#1ad3d3"
+    android:textColor="#ffffff"
+    android:fontFamily="@font/exfont"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bag_nav"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pay_nav"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

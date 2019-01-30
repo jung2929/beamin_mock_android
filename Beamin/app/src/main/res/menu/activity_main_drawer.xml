@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:title="공지사항" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="이벤트" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="광고문의" />
+        <item
+            android:id="@+id/nav_manage"
+            android:title="고객안심센터" />
+    </group>
+
+
+</menu>

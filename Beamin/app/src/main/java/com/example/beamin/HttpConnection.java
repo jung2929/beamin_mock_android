@@ -36,7 +36,7 @@ public class HttpConnection {
                 .build();
 
         Request request = new Request.Builder()
-                .url("http://bucoco.kr/users")
+                .url("")
                 .post(body)
                 .build();
         client.newCall(request).enqueue(callback);
